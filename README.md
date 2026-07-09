@@ -1,0 +1,129 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Personal Profile</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#0d6efd;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.container{
+    width:700px;
+    background:#fff;
+    border-radius:20px;
+    padding:30px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+.profile{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #0d6efd;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#0d6efd;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#0047ab;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+p{
+    color:#333;
+    line-height:1.6;
+    font-size:16px;
+}
+
+ul{
+    list-style:square;
+    text-align:left;
+    margin-left:80px;
+}
+
+li{
+    margin:8px 0;
+}
+
+a{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#0d6efd;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+a:hover{
+    background:#003d99;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<img src="Screenshot_20260701-105230_WhatsApp.jpg" alt="My Photo" class="profile">
+
+<h1>MY NAME</h1>
+
+<h2>GOURAV</h2>
+
+
+<h3>ABOUT</h3>
+
+<p>
+Hello! My name is <b>Gorav Attar</b>. I am a student interested in Web Development,
+Computer Technology, HTML and CSS.And full from css castle sheet syle and html full from from of hyper text markup language 
+</p>
+
+<h2>COLLEGE NAME</h2>
+<p>PT NEKKI RAM SHARMA COLLEGE GC GOVT COLLEGE</p>
+
+<h2>CAREER GOALS</h2>
+<p>
+Setting strong career goals in banking helps you grow fast. A good mix includes short-term targets for building skills and long-term goals for leadership. Use these steps to build a successful banking career, explore career paths, and learn about bank roles.
+</p>
+
+<h2>MY SKILLS</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>MS Office</li>
+<li>Data Entry</li>
+</ul>
+
+<h2>FAVOURITE WEBSITE</h2>
+
+<a href="https://www.w3schools.com" target="_blank">
+Visit W3Schools
+</a>
+
+</div>
+
+</body>
+</html>
